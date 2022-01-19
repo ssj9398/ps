@@ -11,7 +11,9 @@ inputStringAList = list(set(removeCh))                      # J를 배열로 만
 
 inputStringB = input()                                      # 두번째 문자열 받기
 count = 0                                                   # 갯수 초기화
-print("listJ = ", inputStringAList,"S = ",inputStringB)
+
+
+print("listJ = ", inputStringAList, "S = ", inputStringB)
 for i in range(len(inputStringAList)):                      # inputStringA의 문자 갯수만큼 반복문을 돌린다.
     for j in range(len(inputStringB)):                      # inputStringB의 문자 갯수만큼 반복문을 돌린다.
         if inputStringAList[i] == inputStringB[j]:          # 첫번째 문자열의 문자와 두번째 문자열의 문자가 같아 질때
